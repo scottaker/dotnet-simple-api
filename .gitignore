@@ -1,0 +1,4 @@
+bin/
+obj/
+.vs/
+./SimpleApi.Api/appsettings.Development.json
