@@ -1,3 +1,23 @@
+namespace SimpleApi.API;
+public class Program
+{
+    public static async Task Main(string[] args)
+    {
+        await CreateHostBuilder(args)
+              .UseSystemd()
+              .Build()
+              .RunAsync();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
+}
+
+/* .net 8 implementation
 using SimpleApi.API;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,8 +40,6 @@ Startup.RegisterServices(builder.Services, builder.Configuration);
 
 var app = builder.Build();
 
-
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -37,4 +55,4 @@ app.UseAuthorization();
 app.MapControllers();
 app.Run();
 
-
+*/
