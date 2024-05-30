@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:7248/Weather/address",
+					"raw": "https://localhost:5000/Weather/address",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -50,7 +50,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:7248/Weather/location",
+					"raw": "https://localhost:5000/Weather/location",
 					"protocol": "https",
 					"host": [
 						"localhost"
