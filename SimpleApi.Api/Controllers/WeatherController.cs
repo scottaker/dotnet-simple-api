@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using simple_api;
 using SimpleApi.API.Services;
+using SimpleApi.Domain.Models;
 using SimpleApi.Domain.Services;
 
 namespace SimpleApi.API.Controllers;

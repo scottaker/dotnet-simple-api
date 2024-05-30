@@ -1,5 +1,4 @@
-﻿using simple_api;
-using SimpleApi.API.Services;
+﻿using SimpleApi.API.Services;
 using SimpleApi.Domain.Services;
 using SimpleApi.Services.Clients;
 using SimpleApi.Services.Services;

@@ -1,6 +1,6 @@
-﻿using simple_api;
-using SimpleApi.Domain.Services;
+﻿using SimpleApi.Domain.Services;
 using System.Text.Json;
+using SimpleApi.Domain.Models;
 
 namespace SimpleApi.Services.Clients;
 

@@ -1,5 +1,4 @@
 ﻿using System.Text.Json;
-using simple_api;
 using SimpleApi.Domain.Services;
 
 namespace SimpleApi.Services.Services;

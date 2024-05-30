@@ -1,4 +1,4 @@
-﻿using simple_api;
+﻿using SimpleApi.Domain.Models;
 
 namespace SimpleApi.Domain.Services;
 

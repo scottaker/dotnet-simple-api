@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using NUnit.Framework.Legacy;
-using simple_api;
+using SimpleApi.Domain.Models;
 using SimpleApi.Domain.Services;
 using SimpleApi.Services.Models;
 using SimpleApi.Tests.util;

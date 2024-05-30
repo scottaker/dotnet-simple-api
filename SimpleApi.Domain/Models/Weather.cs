@@ -1,7 +1,6 @@
-using System;
 using System.Text.Json.Serialization;
 
-namespace simple_api;
+namespace SimpleApi.Domain.Models;
 
 public class WeatherEnvelope
 {
@@ -9,8 +8,6 @@ public class WeatherEnvelope
     public WeatherData Current { get; set; }
     [JsonPropertyName("location")]
     public WeatherLocation Location { get; set; }
-
-
 }
 
 public class WeatherData

@@ -1,4 +1,3 @@
-namespace simple_api;
 
 public class SimpleApiSettings
 {
