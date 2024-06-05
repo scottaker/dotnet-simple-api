@@ -1,4 +1,5 @@
 ﻿using SimpleApi.API.Services;
+using SimpleApi.API.TcpServer;
 using SimpleApi.Domain.Services;
 using SimpleApi.Services.Clients;
 using SimpleApi.Services.Services;
@@ -51,6 +52,9 @@ public class DependencyManager
         Add<IWeatherService, WeatherService>();
 
         services.AddScoped<CityService>();
+
+        // tcp-service
+        services.AddSingleton<TcpListenerService>(provider => new TcpListenerService(5151));
 
         //Add<IGPTCLient, GptClient>();
         //Add<IGptService, GptService>();

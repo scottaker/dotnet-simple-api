@@ -1,4 +1,5 @@
 ﻿using SimpleApi.API.Infrastructure;
+using SimpleApi.API.TcpServer;
 
 namespace SimpleApi.API;
 
@@ -18,8 +19,12 @@ public class Startup
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
 
+
+
         var dependency = new DependencyManager();
         dependency.Services(services, this.Configuration);
+
+        
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -53,8 +58,19 @@ public class Startup
             endpoints.MapControllers();
         });
 
+        // tcp-server  
+        var lifetime = app.ApplicationServices.GetRequiredService<IHostApplicationLifetime>();
+        var tcp = app.ApplicationServices.GetRequiredService<TcpListenerService>();
+        tcp.Start();
+        lifetime.ApplicationStopping.Register(() =>
+        {
+            var tcpService = app.ApplicationServices.GetRequiredService<TcpListenerService>();
+            tcpService.Stop();
+        });
+
+
     }
 
-    
+
 
 }
