@@ -46,6 +46,8 @@ public class DependencyManager
             return new WeatherClient(client);
         });
 
+        services.AddScoped<ISpotifyLocalClient, SpotifyLocalClient>();
+        services.AddScoped<ISpotifyService, SpotifyService>();
         // SERVICES
         Add<ILocationService, LocationService>();
         Add<IWeatherService, WeatherService>();

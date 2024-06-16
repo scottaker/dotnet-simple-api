@@ -9,6 +9,12 @@
     &lt;TestId&gt;NUnit3x::444942BD-EB01-4988-86AC-ED2AE2BF8C8F::net8.0::SimpleApi.Tests.WeatherTests.Bad_Address_Is_Empty&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ca2eab97_002Dff4c_002D4570_002D83cf_002Df195a02f31f9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Get_User_Profile" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::79C04256-C7AD-4752-9ED0-AC64C3791211::net8.0::SimpleApi.Tests.SpotifyTests.Get_User_Profile&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::79C04256-C7AD-4752-9ED0-AC64C3791211::net8.0::SimpleApi.Tests.SpotifyTests.Get_User_Playlists&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ff55c0e1_002Dc458_002D4c46_002D8da4_002D54135c88567d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Get_Cities" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::444942BD-EB01-4988-86AC-ED2AE2BF8C8F::net8.0::SimpleApi.Tests.Class1.Get_Cities&lt;/TestId&gt;&#xD;

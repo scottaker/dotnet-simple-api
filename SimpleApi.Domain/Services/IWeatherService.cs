@@ -8,3 +8,4 @@ public interface IWeatherService
     Task<IEnumerable<WeatherData>> Get(IEnumerable<Tuple<double, double>> locations);
     Task<WeatherData> GetAtAddress(string address);
 }
+

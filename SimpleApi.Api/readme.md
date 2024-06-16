@@ -1,5 +1,5 @@
 
-# 
+# add appropriate credentials to the appsettings.json file
 
 
 ## Resources
@@ -9,3 +9,7 @@
 	- 500 request / day (free)
 - https://rapidapi.com/weatherapi/api/weatherapi-com/
 	- 1000 requests / month (free)
+
+
+- SPOTIFY:
+	- https://developer.spotify.com/documentation/web-api
